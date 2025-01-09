@@ -1,0 +1,15 @@
+{
+  "name": "pubsub",
+  "version": "1.0.0",
+  "description": "--suppose a user is connected to a ws server and wants apple stock price\r --and anothe user on another ws server wants the same thing \r --then we can either send two http requests to the users\r --but what we do is we make the user subscribe to the apple stock in the pubsub\r --and the ws server will publish the apple stock price in the pubsub\r --and whoevever clients are interested in the apple stock will get the data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.7.0"
+  }
+}
