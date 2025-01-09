@@ -8,3 +8,4 @@
 -- from the below picture we can see that in terminal of a pub sub we can just make one client subscribe to the AAPL
 -- and from the server we published the stock price as 200.2 and it came into the client
 ![ss](image.png)
+![alt text](image-1.png)
